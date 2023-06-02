@@ -53,7 +53,8 @@ const App = () => {
 
   const dataForRender = filter();
   //отслеживать ввод и при каждом вводе символа, фильтровать список и делать ререндер
-  //
+  //---
+  console.log(1);
   return (
     <>
       <h1>Analyze smart wallets</h1>
